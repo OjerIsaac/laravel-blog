@@ -26,6 +26,10 @@ This is a simple blog application built using Laravel, featuring user authentica
   - Clicking on a post title displays the full content of the post.
   - Comments associated with the post are displayed below the post content.
 
+- **Unit Testing:**
+  - Includes PHPUnit tests to ensure functionality correctness.
+  - Tests cover creating posts and adding comments.
+
 ## Installation
 
 1. **Clone the repository:**
@@ -77,6 +81,21 @@ This is a simple blog application built using Laravel, featuring user authentica
 - **Add a Comment:**
   - Scroll to the bottom of a post and use the comment form to add a new comment.
   - Enter your comment text and click "Submit" to post it.
+
+- **Unit Testing:**
+  - To run the PHPUnit tests:
+
+  ```bash
+    php artisan cache:clear
+    php artisan config:clear
+    php artisan route:clear
+    ```
+
+  - to clear the cache then run:
+
+   ```bash
+   php artisan test
+   ```
 
 ## Contributing
 
