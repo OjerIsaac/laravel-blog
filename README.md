@@ -48,7 +48,7 @@ This is a simple blog application built using Laravel, featuring user authentica
 
 3. **Set up environment variables:**
 
-   - Rename `.env.example` to `.env` and configure your database credentials.
+   - Rename `.env.example` to `.env` and configure your database credentials including test database.
 
 4. **Run migrations:**
 
